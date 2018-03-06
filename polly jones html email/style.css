@@ -1,0 +1,140 @@
+/*
+Table of contents
+----------------------------------------------
+-header
+-image
+-content
+-about
+-logo
+-icons
+-footer
+*/
+
+
+/* header---------------------------------------------*/
+
+.top{
+    
+width: 100%;
+display:block;
+height:400px;
+height: 6.00em;
+background-color: #84B096;
+display: block;
+}
+.logo {
+margin: 1em auto;
+text-align: center;
+font-size: 1.975em;
+border: 2px solid white;
+width: 6em;
+
+
+}
+.logo a{
+ color:#31302b;
+font-family: 'Nunito', sans-serif;
+font-family: 'Inconsolata', monospace;
+}
+.logo a:hover{
+color:#84B096;
+background-color:white;
+text-decoration: none;
+border: 3px solid white;
+}
+
+
+/*Image--------------------------------------------*/
+img{
+width: 100%;
+height: auto;
+}
+@media (max-width:995px){
+.top-buffer{
+  margin-top:0;
+    } 
+    img{
+    margin-top: 20px;
+    }
+    
+}
+
+@media (min-width:1000px){
+.top-buffer{
+  margin-top:20px;  
+}
+}
+img:hover{
+ opacity: 0.8;
+}
+/*About--------------------------------------------*/
+img #polly{
+max-width: 100%;
+margin: 0;
+}
+.about-top{
+background-color: #ffd12e; 
+width: 100%;
+display:cblock;
+height:auto;
+margin-top:  2.5em;
+
+}
+.polly-jones-bio{
+ text-align: center;
+padding-top: 3em;
+}
+
+/* Icons--------------------------------------------*/
+.icons img{
+max-width: 3.225em;
+max-height: 3.125em;
+
+}
+#fc:hover{
+background-color:rgb(72,103,170);    
+}
+#tw:hover{
+background-color:rgb(29,161,242);    
+}
+#in:hover{
+background-color:rgb(1,119,181);
+}
+#yo:hover{
+background-color:rgb(229,44,39);
+}
+#fl:hover{
+background-color:rgb(255,0,132);
+}
+
+.icon-stl{
+margin:1% 40% 1% 40%;
+}
+/* Ipad */
+@media (max-width:768px){
+.icon-stl{
+margin:2% 30% 2% 30%;
+}
+}
+
+/* Iphone */
+@media (max-width:414px){
+.icon-stl{
+margin:0.3125em 10% 0.3125em 10%;
+width: 100%;
+} 
+
+}
+
+.icon-stl a{
+margin-right: 0.625em;    
+}
+
+/* Footer---------------------------------------------*/
+.copy-wright{
+width: 100%;
+text-align: center;
+padding: 2%;
+font-size: 1.125em;
+color: #9d9d9e;
+}
